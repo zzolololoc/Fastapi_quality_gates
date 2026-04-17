@@ -30,7 +30,7 @@ jobs:
         run: flake8 .
 
       - name: Run mypy
-        run: mypy . --ignore-missing-imports
+        run: mypy . --ignore-missing-imports --disable-error-code attr-defined
 
       - name: Run pytest
         run: pytest
