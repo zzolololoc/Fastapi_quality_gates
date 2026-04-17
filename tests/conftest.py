@@ -2,7 +2,6 @@ from typing import Any, Generator
 
 import pytest
 from flask import Flask
-from sqlalchemy.orm import ScopedSession
 
 from app import create_app
 from app import db as _db
