@@ -1,5 +1,6 @@
-import pytest
 from typing import Any, Generator
+
+import pytest
 from flask import Flask
 from sqlalchemy.orm import ScopedSession
 

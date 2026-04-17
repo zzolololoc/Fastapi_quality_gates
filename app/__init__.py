@@ -1,5 +1,7 @@
 from typing import Any
+
 from flask import Flask
+
 from .models import db
 
 
